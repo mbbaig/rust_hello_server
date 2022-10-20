@@ -776,6 +776,7 @@ version = "0.1.0"
 dependencies = [
  "actix-web",
  "askama",
+ "serde",
 ]
 
 [[package]]
