@@ -9,6 +9,6 @@ struct MyObj {
 #[get("/")]
 async fn greet() -> impl Responder {
     web::Json(MyObj {
-        hello: "world".to_string()
+        hello: "world".to_lowercase()
     })
 }
