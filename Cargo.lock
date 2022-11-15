@@ -771,15 +771,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b1de2e551fb905ac83f73f7aedf2f0cb4a0da7e35efa24a202a936269f1f18e1"
 
 [[package]]
-name = "penpal_dashboard"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "askama",
- "serde",
-]
-
-[[package]]
 name = "percent-encoding"
 version = "2.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -876,6 +867,15 @@ name = "regex-syntax"
 version = "0.6.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a3f87b73ce11b1619a3c6332f45341e0047173771e8b8b73f87bfeefb7b56244"
+
+[[package]]
+name = "rust_hello_server"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "askama",
+ "serde",
+]
 
 [[package]]
 name = "rustc_version"

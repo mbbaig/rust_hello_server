@@ -1,5 +1,5 @@
 [package]
-name = "penpal_dashboard"
+name = "rust_hello_server"
 version = "0.1.0"
 edition = "2021"
 
